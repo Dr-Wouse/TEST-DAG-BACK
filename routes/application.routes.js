@@ -29,7 +29,7 @@ applicationRouter.get("/:id", async (req, res) => {
   }
 });
 
-// GET ONE COURSE BY APPLICATION BY ID
+// GET ALL COURSE FROM APPLICATION BY ID
 
 applicationRouter.get("/course/:id", async (req, res) => {
   try {
